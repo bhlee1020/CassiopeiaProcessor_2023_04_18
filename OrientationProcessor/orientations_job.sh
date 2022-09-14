@@ -36,4 +36,4 @@ echo $SLURM_JOB_NODELIST |sed s/\,/\\n/g > hostfile
 # Change this when running
 VIDEOPATH=/global/scratch/users/bhlee1020/RNAi/Lorde/Empty/Orientation_Chunks/Unfinished
 
-ls $VIDEOPATH/*.mp4 | parallel -j $JOBS_PER_NODE --joblog LordeEmptyORIENTATIONS.log --slf hostfile --wd $WDIR --progress /bin/bash orientations_exec_script.sh {} $SLURM_CPUS_PER_TASK
+ls $VIDEOPATH/*.mp4 | parallel -j $JOBS_PER_NODE --joblog LordeEmptyORIENTATIONS.log --slf hostfile --wd $WDIR --progress /bin/bash o_exec_script.sh {} $SLURM_CPUS_PER_TASK
