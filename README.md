@@ -28,7 +28,7 @@ However, this program does not account for the potential movement and rotation o
 
 ## Credits
 - Programs have been written and edited by Konnor von Emster, Lilian Zhang, and Brandon Lee
-- Written for the Harland Lab at UC Berkeley, under the guidance of Michael Abrams
+- Written for the Harland Lab at UC Berkeley, under the guidance of Dr. Michael Abrams
 - Dependencies: FFMPEG, GNU Parallel, DeepLabCut
 
 ## License
