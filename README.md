@@ -1,7 +1,9 @@
 # CassiopeiaProcessor_v2
 ### Used by Harland Lab at UC Berkeley
+
 #### Initialization, FFMPEGProcessor, and VideoProcessor Authored by Konnor von Emster, Edited by Lilian Zhang and Brandon Lee
 Original Version: https://github.com/konnorve/CassiopeaProcessor
+
 #### OrientationProcessor Authored by Brandon Lee
 
 ## Description
@@ -28,3 +30,4 @@ Written for the Harland Lab at UC Berkeley, under the guidance of Michael Abrams
 Dependencies: FFMPEG, GNU Parallel, DeepLabCut
 
 ## License
+This program is not currently licensed in any way. If you use code or data, please cite us!
