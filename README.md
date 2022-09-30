@@ -25,7 +25,7 @@ Video recordings are first analyzed to determine parameters best suited for the 
 However, this program does not account for the potential movement and rotation of the jellyfish throughout the recording. This makes the location of each ganglia variable, so the values calculated need to be offset by the relative orientation of the jellyfish. This was achieved using the Python software package, DeepLabCut (https://github.com/DeepLabCut/DeepLabCut). Using DeepLabCut, a ResNet-50 convolutional neural network was trained on an initial dataset of 24 hours of recording, with seventeen labels which were used to estimate the location of rhopalia. Since DeepLabCut is often used to track the different body parts on an animal, it is difficult for the program to locate and differentiate rhopalia. Instead, labels were initially placed on random points on the circumference of the jellyfish, which are tracked throughout the whole duration of the video. After this processing, the positions of the rhopalia are measured by-hand and compared to these labels in order to offset them to the correct positions. By combining the values of the rhopalia positions with the angles of initiating ganglia, we are able to track ganglia activity levels for long periods of time.
 
 ## Program Flow
-!(https://imgur.com/a/XSgoBPv)
+![alt text](https://imgur.com/a/XSgoBPv)
 
 ## Credits
 - Programs have been written and edited by Konnor von Emster, Lilian Zhang, and Brandon Lee
