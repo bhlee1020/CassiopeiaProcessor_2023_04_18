@@ -9,7 +9,7 @@
 - Authored by Brandon Lee
 
 ## Description
-Program used to process Cassiopea Jellyfish Recordings. 
+Software developed and used by the Harland Lab at UC Berkeley to process Cassiopeia jellyfish recordings. 
 
 <!--- ## Table of Contents --->
 
@@ -17,7 +17,7 @@ Program used to process Cassiopea Jellyfish Recordings.
 This program can be installed by pulling the repository from github, or, if you are a user of UC Berkeley's high performance computing cluster, Savio, you can copy the program directly from: /global/scratch/users/bhlee1020/CassiopeiaProcessor.
 
 ## Usage
-This program was designed to be run on UC Berkeley's high performance computing cluster, Savio. Each process in the pipeline has an associated shell script that executes the Python code in parallel to efficiently process large amounts of data. Initialization is first run on a local computer to verify different parameters. Then, on Savio, FFMPEGProcessor is run and then VideoProcessor. OrientationProcessor can be run on Savio at any time during this pipeline. 
+This program was designed to be run on UC Berkeley's high performance computing cluster, Savio. Each process in the pipeline has an associated shell script that executes the Python code in parallel to efficiently process large amounts of data. Initialization is first run on a local computer to verify different parameters. Then, on Savio, FFMPEGProcessor is run and then VideoProcessor. OrientationProcessor can be run on Savio at any time during this pipeline. Videos which are < 120 frames per second may receive variable results.
 
 ## How does it work? 
 Video recordings are first analyzed to determine parameters best suited for the tracking of ganglia on a particular jellyfish. Pulse times and angle of initiating ganglia were calculated for 30 seconds using the Initialization program. These values were calculated using a gradient of different parameters, such as image grayscale level, pulse thresholds, and refractory periods. Calculations for the full videos are then done on Savio, using FFMPEGProcessor and VideoProcessor.
