@@ -14,6 +14,7 @@ Program used to process Cassiopea Jellyfish Recordings.
 <!--- ## Table of Contents --->
 
 ## Installation
+This program can be installed by pulling the repository from github, or, if you are a user of UC Berkeley's high performance computing cluster, Savio, you can copy the program directly from: /global/scratch/users/bhlee1020/CassiopeiaProcessor.
 
 ## Usage
 This program was designed to be run on UC Berkeley's high performance computing cluster, Savio. Each process in the pipeline has an associated shell script that executes the Python code in parallel to efficiently process large amounts of data. Initialization is first run on a local computer to verify different parameters. Then, on Savio, FFMPEGProcessor is run and then VideoProcessor. OrientationProcessor can be run on Savio at any time during this pipeline. 
