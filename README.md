@@ -1,10 +1,12 @@
 # CassiopeiaProcessor_v2
-### Used by Harland Lab at UC Berkeley
+## Used by Harland Lab at UC Berkeley
+### Contributors:
+#### Initialization, FFMPEGProcessor, and VideoProcessor
+- Authored by Konnor von Emster, Edited by Lilian Zhang and Brandon Lee
+- Original Version: https://github.com/konnorve/CassiopeaProcessor
 
-#### Initialization, FFMPEGProcessor, and VideoProcessor: Authored by Konnor von Emster, Edited by Lilian Zhang and Brandon Lee
-Original Version: https://github.com/konnorve/CassiopeaProcessor
-
-#### OrientationProcessor: Authored by Brandon Lee
+#### OrientationProcessor
+- Authored by Brandon Lee
 
 ## Description
 Program used to process Cassiopea Jellyfish Recordings. 
