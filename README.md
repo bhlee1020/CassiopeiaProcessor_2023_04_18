@@ -1,6 +1,6 @@
 # CassiopeiaProcessor_v2
 
-## Used by Harland Lab at UC Berkeley
+### Used by Harland Lab at UC Berkeley
 
 ### Contributors:
 #### Initialization, FFMPEGProcessor, and VideoProcessor
