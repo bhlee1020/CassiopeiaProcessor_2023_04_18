@@ -13,7 +13,7 @@
 - Authored by Brandon Lee
 
 ## Description
-Software developed and used by the Harland Lab at UC Berkeley to process Cassiopeia jellyfish recordings. 
+Software developed and used by the Harland Lab at UC Berkeley to process Cassiopeia jellyfish recordings. Videos are analyzed to determine the ganglia which initiate pulses, allowing for the tracking of sleep and wake states in Cassiopeia.
 
 <!--- ## Table of Contents --->
 
