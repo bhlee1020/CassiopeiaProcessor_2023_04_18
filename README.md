@@ -3,7 +3,7 @@
 
 
 ### Contributors:
-#### Used by Harland Lab at UC Berkeley
+#### Used and created by the Harland Lab at UC Berkeley
 
 #### Initialization, FFMPEGProcessor, and VideoProcessor
 - Authored by Konnor von Emster, Edited by Lilian Zhang and Brandon Lee
