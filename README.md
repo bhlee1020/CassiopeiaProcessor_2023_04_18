@@ -10,7 +10,7 @@
 
 ## Description
 Software developed and used by the Harland Lab at UC Berkeley to process Cassiopeia jellyfish recordings. 
-![alt text](https://github.com/bhlee1020/CassiopeiaProcessor_v2/images/example_DLC.mp4")
+![alt text](https://github.com/bhlee1020/CassiopeiaProcessor_v2/blob/main/images/labelled_jelly.gif)
 
 <!--- ## Table of Contents --->
 
