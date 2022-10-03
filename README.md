@@ -4,6 +4,9 @@
 
 ### Contributors:
 #### Used and created by the Harland Lab at UC Berkeley
+- Konnor von Emster: https://github.com/konnorve
+- Lilian Zhang: https://github.com/lilianzhang392
+- Brandon Lee: https://github.com/bhlee1020
 
 #### Initialization, FFMPEGProcessor, and VideoProcessor
 - Authored by Konnor von Emster, Edited by Lilian Zhang and Brandon Lee
@@ -12,10 +15,6 @@
 #### OrientationProcessor
 - Authored by Brandon Lee
 
-#### Author Githubs
-- Konnor von Emster:
-- Lilian Zhang: https://github.com/lilianzhang392
-- Brandon Lee: 
 ## Description
 Software developed and used by the Harland Lab at UC Berkeley to process Cassiopeia jellyfish recordings. Videos are analyzed to determine the ganglia which initiate pulses, allowing for the tracking of sleep and wake states in Cassiopeia.
 
