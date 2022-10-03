@@ -1,9 +1,10 @@
 # CassiopeiaProcessor_v2
 ![alt text](https://github.com/bhlee1020/CassiopeiaProcessor_v2/blob/main/images/tracked_jellies.gif)
 
-### Used by Harland Lab at UC Berkeley
 
 ### Contributors:
+#### Used by Harland Lab at UC Berkeley
+
 #### Initialization, FFMPEGProcessor, and VideoProcessor
 - Authored by Konnor von Emster, Edited by Lilian Zhang and Brandon Lee
 - Original Version: https://github.com/konnorve/CassiopeaProcessor
