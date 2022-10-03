@@ -1,4 +1,7 @@
 # CassiopeiaProcessor_v2
+
+![alt text](https://github.com/bhlee1020/CassiopeiaProcessor_v2/blob/main/images/labelled_jelly.gif)
+
 ## Used by Harland Lab at UC Berkeley
 ### Contributors:
 #### Initialization, FFMPEGProcessor, and VideoProcessor
@@ -10,7 +13,6 @@
 
 ## Description
 Software developed and used by the Harland Lab at UC Berkeley to process Cassiopeia jellyfish recordings. 
-![alt text](https://github.com/bhlee1020/CassiopeiaProcessor_v2/blob/main/images/labelled_jelly.gif)
 
 <!--- ## Table of Contents --->
 
