@@ -21,7 +21,7 @@ Software developed and used by the Harland Lab at UC Berkeley to process Cassiop
 <!--- ## Table of Contents --->
 
 ## Installation
-This program can be installed by pulling the repository from github, or, if you are a user of UC Berkeley's high performance computing cluster, Savio, you can copy the program directly from: /global/scratch/users/bhlee1020/CassiopeiaProcessor.
+This program can be installed by pulling the repository from Github, or, if you are a user of UC Berkeley's high performance computing cluster, Savio, you can copy the program directly from: /global/scratch/users/bhlee1020/CassiopeiaProcessor.
 
 ## Usage
 This program was designed to be run on UC Berkeley's high performance computing cluster, Savio, with jellyfish videos recorded at 120 frames per second. Each process in the pipeline has an associated shell script that executes the Python code in parallel to efficiently process large amounts of data. Initialization is first run on a local computer to verify different parameters. Then, on Savio, FFMPEGProcessor is run and then VideoProcessor. OrientationProcessor can be run on Savio at any time during this pipeline. Videos which are < 120 frames per second may receive variable results.
