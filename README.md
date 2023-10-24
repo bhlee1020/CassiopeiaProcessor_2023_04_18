@@ -40,4 +40,4 @@ However, this program does not account for the potential movement and rotation o
 - Dependencies: FFMPEG, GNU Parallel, DeepLabCut
 
 ## License
-This program is not currently licensed in any way. If you use code or data, please cite us!
+This software is not licensed by us. However, if you do use it, please cite FFMPEG, GNU Parallel, and DeepLabCut.
